@@ -1,0 +1,36 @@
+/* 
+    Created on : 04/07/2019, 07:51:49 PM
+    Author     : JOHEL
+*/
+body{
+    width: 1000px;
+    margin: auto;
+    background-color: aqua;
+    border: dotted;
+    font-family: Comic Sans;
+}
+/*
+h1: es para q el titulito me salga en el centro
+*/
+h1{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+   
+}
+/*
+nav li: para que me aparezca el bordecito de la pag
+*/
+nav li{
+    display: inline-block;
+    padding: 5px;
+}
+
+.menuSuperior{
+    font-size: x-large;
+}
+
+.labelCrearUsuario{
+    width: 150xp;
+}
+
