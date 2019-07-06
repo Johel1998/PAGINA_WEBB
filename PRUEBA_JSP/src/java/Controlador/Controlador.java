@@ -20,6 +20,8 @@ import javax.servlet.http.HttpServletResponse;
 public class Controlador extends HttpServlet {
             public String login = "vistas/login.jsp";
             public String registro = "vistas/register.jsp";
+            public String verifyUser = "vistas/zonaDeCarga.jsp";
+            
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -65,6 +67,8 @@ public class Controlador extends HttpServlet {
             acceso = login;
         }else if (accion.equalsIgnoreCase("register")) {
             acceso = registro;
+        }else if (accion.equalsIgnoreCase("verificarUsuario")) {
+            
         }
         
         RequestDispatcher vista = request.getRequestDispatcher(acceso);
