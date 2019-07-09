@@ -8,10 +8,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Creacion de Usuario</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../css/MyStyles.css" rel="stylesheet" type="text/css"/>
+        <title>Creacion de Usuario</title>
     </head>
     <body>
         <header>
@@ -36,9 +36,7 @@
                 <ul> 
                     <li>
                         <a href="index.jsp">Inicio</a>
-                       
-                        <a href="login.jsp">Iniciar Secion</a>
-
+                        <a href="Controlador?accion=login">Iniciar Seccion</a>
                     </li>
                 </ul>
             </nav>

@@ -8,10 +8,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Iniciar Seccion</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../css/MyStyles.css" rel="stylesheet" type="text/css"/>
+        <title>Iniciar Seccion</title>
     </head>
     <body>
         <header>
@@ -36,7 +36,7 @@
                 <ul> 
                     <li>
                         <a href="index.jsp">Inicio</a>
-                        <a href="register.jsp">Crear Usuario</a>
+                        <a href="Controlador?accion=register">Registrarse</a>
 
                     </li>
                 </ul>
