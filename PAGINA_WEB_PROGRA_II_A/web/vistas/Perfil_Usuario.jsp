@@ -36,6 +36,7 @@
         <br>
         <a>Distrito: <%= usuario.getDistrito()%></a>
         <br>
-        <a herf="Controlador?accion=zonaDeCarga">Zona De Busqueda</a>
+        <a href="Controlador?accion=zonaDeCarga">Zona de Carga</a>
+       
     </body>
 </html>
