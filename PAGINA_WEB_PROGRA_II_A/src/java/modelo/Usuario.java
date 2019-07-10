@@ -97,5 +97,15 @@ public class Usuario {
         return "Usuario{" + "nombre=" + nombre + ", apellido=" + apellido + ", password=" + password + ", cedula=" + cedula + ", email=" + email + ", provincia=" + provincia + ", canton=" + canton + ", distrito=" + distrito + '}';
     }
     
+    public void reiniciarUsuario(){
+        nombre = "";
+        apellido = "";
+        password = "";
+        cedula = 0;
+        email = "";
+        provincia = "";
+        canton = "";
+        distrito = "";
+    }
     
 }

@@ -35,7 +35,7 @@ public class UsuarioXML {
     
     public static void escribirArchivo(ArrayList<Usuario> list) {
         try {
-            encriptador = new XMLEncoder(new FileOutputStream("xmlFile.xml"));
+            encriptador = new XMLEncoder(new FileOutputStream("archivoXML.xml"));
             encriptador.writeObject(list);
             encriptador.close();
         } catch (FileNotFoundException ex) {

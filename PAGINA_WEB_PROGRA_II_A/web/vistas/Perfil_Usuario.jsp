@@ -36,7 +36,10 @@
         <br>
         <a>Distrito: <%= usuario.getDistrito()%></a>
         <br>
+        <br>
+        <br>
         <a href="Controlador?accion=zonaDeCarga">Zona de Carga</a>
-       
+        <br>
+        <input type="submit" name="accion" value="Cerrar Seccion">
     </body>
 </html>

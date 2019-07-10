@@ -114,9 +114,10 @@ public class Controlador extends HttpServlet {
             if (seEntro == true) {
                 request.setAttribute("actualUser", usuario);
                 acceso = zonaDeCarga;
-            }else{
-                
             }
+        }else if (accion.equalsIgnoreCase("Cerrar Seccion")) {
+            usuario.reiniciarUsuario();
+            acceso = index;
         }
         
 
