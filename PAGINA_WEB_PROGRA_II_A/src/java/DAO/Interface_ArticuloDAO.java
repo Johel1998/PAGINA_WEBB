@@ -10,6 +10,7 @@ import modelo.Articulo;
 public interface Interface_ArticuloDAO {
     public void hacerTrueque(Articulo articulo);
     TreeMap<String, Articulo> obtenerArticulos();
-    public void insertar(Articulo articulo);
+    public boolean insertar(Articulo articulo);
     public Articulo buscarArticuloPorCodigo(int codigo);
+    public boolean actualizar(Articulo articulo);
 }

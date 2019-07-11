@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -14,6 +15,7 @@ import modelo.Usuario;
  *
  * @author JOHEL
  */
+//@WebServlet(name = "Controlador", urlPatterns = {"/Controlador"})
 public class Controlador extends HttpServlet {
 
     public String index = "index.jsp";
@@ -22,6 +24,7 @@ public class Controlador extends HttpServlet {
     public String zonaDeCarga = "vistas/zonaDeCarga.jsp";
     public String perfil = "vistas/Perfil_Usuario.jsp";
     public String zonaTrueques = "vistas/zonaDeTrueques.jsp";
+    public String zonaDeBusqueda = "vistas/zonaDeBusqueda.jsp";
 
     public Usuario usuario = new Usuario();
     public ListaUsuarioDAO listaUsuarioDAO = new ListaUsuarioDAO();
@@ -77,7 +80,10 @@ public class Controlador extends HttpServlet {
         } else if (accion.equalsIgnoreCase("Cerrar Seccion")) {
             usuario.reiniciarUsuario();
             acceso = index;
-        } else if (accion.equalsIgnoreCase("zonaDeCarga")) {
+        } else if (accion.equalsIgnoreCase("zonaDeBusqueda")) {
+            acceso = zonaDeBusqueda;
+
+        }else if (accion.equalsIgnoreCase("zonaDeCarga")) {
             acceso = zonaDeCarga;
 
         } else if (accion.equalsIgnoreCase("perfil")) {
@@ -114,7 +120,7 @@ public class Controlador extends HttpServlet {
             }
             if (seEntro == true) {
                 request.setAttribute("actualUser", usuario);
-                acceso = zonaDeCarga;
+                acceso = zonaDeBusqueda;
             }
         }else if (accion.equalsIgnoreCase("")) {
           

@@ -8,7 +8,7 @@ import java.awt.Image;
  */
 public class Articulo {
     private String duenoDelArticulo;
-    private String nombre;
+    private String nombreArticulo;
     private int codigo;
     private String precio;
     private Image imagenProducto;
@@ -16,28 +16,28 @@ public class Articulo {
     public Articulo() {
     }
 
-    public Articulo(String nickUsuarioP, String nombre, int codigo, String precio, Image imagenProducto) {
-        this.duenoDelArticulo = nickUsuarioP;
-        this.nombre = nombre;
+    public Articulo(String duenoDelArticulo, String nombreArticulo, int codigo, String precio, Image imagenProducto) {
+        this.duenoDelArticulo = duenoDelArticulo;
+        this.nombreArticulo = nombreArticulo;
         this.codigo = codigo;
         this.precio = precio;
         this.imagenProducto = imagenProducto;
     }
 
-    public String getNickUsuarioP() {
+    public String getDuenoDelArticulo() {
         return duenoDelArticulo;
     }
 
-    public void setNickUsuarioP(String nickUsuarioP) {
+    public void setDuenoDelArticulo(String nickUsuarioP) {
         this.duenoDelArticulo = nickUsuarioP;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getNombreArticulo() {
+        return nombreArticulo;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombreArticulo(String nombreArticulo) {
+        this.nombreArticulo = nombreArticulo;
     }
 
     public int getCodigo() {
@@ -66,6 +66,6 @@ public class Articulo {
 
     @Override
     public String toString() {
-        return "Articulo{" + "nickUsuarioP=" + duenoDelArticulo + ", nombre=" + nombre + ", codigo=" + codigo + ", precio=" + precio + ", imagenProducto=" + imagenProducto + '}';
+        return "Articulo{" + "duenoDelArticulo=" + duenoDelArticulo + ", nombreArticulo=" + nombreArticulo + ", codigo=" + codigo + ", precio=" + precio + ", imagenProducto=" + imagenProducto + '}';
     }
 }

@@ -9,14 +9,16 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title><a href="perfil.jsp">Perfil</a>
-    
-    
-    
+        <link href="../css/MyStyles.css" rel="stylesheet" type="text/css"/>
+        <title>Zona De Busqueda</title>
+         
 </head>
 <body>
-    <h1></h1>
-
-
+    <h1>Zona De Busqueda</h1>
+    <a href="Controlador?accion=perfil">perfil</a>
+    <a herf="Controlador?accion=zonaDeCarga">Zona De Carga</a>
+    <br>
+    <br>
+    
 </body>
 </html>

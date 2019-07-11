@@ -16,7 +16,6 @@ h1{
     background-color: darkblue;
     color: white;
     text-align: center;
-   
 }
 /*
 nav li: para que me aparezca el bordecito de la pag
@@ -34,3 +33,10 @@ nav li{
     width: 150xp;
 }
 
+.from{
+    text-align: center;
+}
+
+.MispelledWord{
+    
+}

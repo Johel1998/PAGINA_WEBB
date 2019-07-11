@@ -38,7 +38,7 @@
         <br>
         <br>
         <br>
-        <a href="Controlador?accion=zonaDeCarga">Zona de Carga</a>
+        <a href="Controlador?accion=zonaDeBusqueda">Zona de Busqueda</a>
         <br>
         <input type="submit" name="accion" value="Cerrar Seccion">
     </body>
