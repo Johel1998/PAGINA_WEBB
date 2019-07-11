@@ -13,6 +13,8 @@
     </head>
     <body>
         <h1>Zona De Carga</h1>
+        
+        
         <a href="Controlador?accion=perfil">perfil</a>
       
     </body>

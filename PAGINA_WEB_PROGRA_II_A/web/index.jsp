@@ -14,9 +14,8 @@
     </head>
     <body>
         <h1>Bienvenido a Loop Merchancy</h1>
-                 
+        <img src="loop_Index.png" alt=""/>
         <h2>Bienvenido a nuestro mercado</h2>
-       
         <p>El proposito de este sitio es que encuentres el producto que deseas, o bien vendas lo que quieras</p>
 
                 <a href="Controlador?accion=register">Registrarse</a>

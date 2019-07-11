@@ -74,8 +74,9 @@ public class Controlador extends HttpServlet {
             acceso = index;
         }else if (accion.equalsIgnoreCase("register")) {
             acceso = registro;
-        } else if (accion.equalsIgnoreCase("verificarUsuario")) {
-
+        } else if (accion.equalsIgnoreCase("Cerrar Seccion")) {
+            usuario.reiniciarUsuario();
+            acceso = index;
         } else if (accion.equalsIgnoreCase("zonaDeCarga")) {
             acceso = zonaDeCarga;
 
@@ -115,9 +116,8 @@ public class Controlador extends HttpServlet {
                 request.setAttribute("actualUser", usuario);
                 acceso = zonaDeCarga;
             }
-        }else if (accion.equalsIgnoreCase("Cerrar Seccion")) {
-            usuario.reiniciarUsuario();
-            acceso = index;
+        }else if (accion.equalsIgnoreCase("")) {
+          
         }
         
 

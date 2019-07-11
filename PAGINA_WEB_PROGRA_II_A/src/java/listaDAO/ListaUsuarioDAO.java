@@ -1,6 +1,6 @@
 package listaDAO;
 
-import DAO.InterfacUserDAO;
+import DAO.Interface_UsuarioDAO;
 import XML.UsuarioXML;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -10,7 +10,7 @@ import modelo.Usuario;
  *
  * @author Ana Elena
  */
-public class ListaUsuarioDAO implements InterfacUserDAO{
+public class ListaUsuarioDAO implements Interface_UsuarioDAO{
     private ArrayList<Usuario> listaUsuario;
 
     public ListaUsuarioDAO() {
