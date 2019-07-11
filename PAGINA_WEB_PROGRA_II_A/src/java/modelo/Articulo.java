@@ -7,7 +7,7 @@ import java.awt.Image;
  * @author JOHEL
  */
 public class Articulo {
-    private String nickUsuarioP;
+    private String duenoDelArticulo;
     private String nombre;
     private int codigo;
     private String precio;
@@ -17,7 +17,7 @@ public class Articulo {
     }
 
     public Articulo(String nickUsuarioP, String nombre, int codigo, String precio, Image imagenProducto) {
-        this.nickUsuarioP = nickUsuarioP;
+        this.duenoDelArticulo = nickUsuarioP;
         this.nombre = nombre;
         this.codigo = codigo;
         this.precio = precio;
@@ -25,11 +25,11 @@ public class Articulo {
     }
 
     public String getNickUsuarioP() {
-        return nickUsuarioP;
+        return duenoDelArticulo;
     }
 
     public void setNickUsuarioP(String nickUsuarioP) {
-        this.nickUsuarioP = nickUsuarioP;
+        this.duenoDelArticulo = nickUsuarioP;
     }
 
     public String getNombre() {
@@ -66,6 +66,6 @@ public class Articulo {
 
     @Override
     public String toString() {
-        return "Articulo{" + "nickUsuarioP=" + nickUsuarioP + ", nombre=" + nombre + ", codigo=" + codigo + ", precio=" + precio + ", imagenProducto=" + imagenProducto + '}';
+        return "Articulo{" + "nickUsuarioP=" + duenoDelArticulo + ", nombre=" + nombre + ", codigo=" + codigo + ", precio=" + precio + ", imagenProducto=" + imagenProducto + '}';
     }
 }
