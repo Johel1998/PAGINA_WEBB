@@ -2,6 +2,7 @@ package listaDAO;
 
 import DAO.Interface_ArticuloDAO;
 import Singleton.ArticuloS;
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.TreeMap;
@@ -97,10 +98,14 @@ public class Lista_De_Articulos_DAO implements Interface_ArticuloDAO{
         }
         return seInserto;
     }
+    
+//    public TreeMap<String, Articulo> obtenerArticulos() {
+//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+//    }
 
     @Override
-    public TreeMap<String, Articulo> obtenerArticulos() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public List<Articulo> obtenerArticulo() {
+        return listaDeArticulos;
     }
       
 }

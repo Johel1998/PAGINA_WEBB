@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="css/MyStyles.css" rel="stylesheet" type="text/css"/>
+        <link href="MyStyles.css" rel="stylesheet" type="text/css"/>
         <title>Inicio</title>
     </head>
     <body>
@@ -22,5 +22,4 @@
                 <a href="Controlador?accion=login">Iniciar Seccion</a>
       
     </body>
-  
 </html>

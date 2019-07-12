@@ -25,6 +25,13 @@ nav li{
     padding: 5px;
 }
 
+form{
+   background: plum;
+   display: block;
+   width: 650;
+   margin: 0 auto;
+}
+
 .menuSuperior{
     font-size: x-large;
 }
@@ -36,7 +43,6 @@ nav li{
 .from{
     text-align: center;
 }
-
-.MispelledWord{
-    
+.table.centrar{
+    margin: auto;
 }
